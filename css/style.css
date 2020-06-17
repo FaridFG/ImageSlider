@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider i {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    top: 45%;
+}
+
+i.right {
+    right: 40px;
+}
+
+i.left {
+    left: 40px;
+    display: none;
+}
+
+.images {
+    height: 100%;
+    display: flex;
+}
+
+.item {
+    width: 25%;
+    height: 100%;
+}
